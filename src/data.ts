@@ -168,8 +168,17 @@ export const initialSites: Site[] = [
     id: 'play-drums-online',
     name: 'PlayDrumsOnline',
     url: 'https://www.playdrumsonline.com',
-    tags: ['drum', 'midi', 'training', 'practice', 'sheet-music', 'transcription', 'sequencer'],
-    description: 'Practice drums in the browser with 2000+ songs as drum sheet or rhythm game. AI-generated transcription from MP3/YouTube, MIDI input from electronic kits, real-time scoring, sheet editor, and PDF/MIDI export.'
+    tags: [
+      'drum',
+      'midi',
+      'training',
+      'practice',
+      'sheet-music',
+      'transcription',
+      'sequencer',
+    ],
+    description:
+      'Practice drums in the browser with 2000+ songs as drum sheet or rhythm game. AI-generated transcription from MP3/YouTube, MIDI input from electronic kits, real-time scoring, sheet editor, and PDF/MIDI export.',
   },
 ];
 
