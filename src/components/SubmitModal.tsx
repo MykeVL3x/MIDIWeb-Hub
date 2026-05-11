@@ -12,11 +12,11 @@ export function SubmitModal({ isOpen, onClose }: SubmitModalProps) {
   if (!isOpen) return null;
 
   const prTemplate = `{
-  "id": "your-site-id",
-  "name": "Your Site Name",
-  "url": "https://yoursite.com",
-  "tags": ["synth", "webaudio"],
-  "description": "A short description of your site."
+  id: 'your-site-id',
+  name: 'Your Site Name',
+  url: 'https://yoursite.com',
+  tags: ['synth', 'webaudio'],
+  description: 'A short description of your site.'
 }`;
 
   const copyToClipboard = () => {
